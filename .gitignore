@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/.gitignore
+.idea/aws.xml
+.idea/codeStyles/
+.idea/mini-projects.iml
+.idea/modules.xml
+.idea/vcs.xml
