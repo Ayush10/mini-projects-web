@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, san-serif;
+    font-size: 14px !important;
+    background-color: #fafafa !important;
+}
+
+/* Logo and Details Section */
+
+.top-header {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-header h6 {
+    color: red;
+    font-weight: bold;
+    margin-top: 6em;
+    margin-bottom: 2em;
+}
+
+.top-header .details {
+    text-align: right;
+    margin-right: 7em;
+}
+
+.top-header p {
+    font-size: 10px;
+    margin: 0;
+}
+
+.top-header p:last-child {
+    margin-top: 1em;
+}
+
+.college-header img {
+    margin-left: 7em;
+}
+
+
+/* Main Header Section */
+.main-header {
+    background-color: #d60000;
+    color: white;
+    border-bottom: 4em solid #b40000;
+}
+
+.main-header h1 {
+    margin-top: 0;
+    padding: 0.85em;
+    padding-left: 1.25em;
+    padding-bottom: 0;
+    width: 60%;
+    font-size: 7em;
+    text-transform: uppercase;
+}
+
+/* Disclaimer Section */
+.disclaimer {
+    margin: auto 7em;
+    line-height: 1.5;
+    letter-spacing: 1.25px;
+}
+
+.disclaimer h3 {
+    text-transform: uppercase;
+    color: red;
+}
+

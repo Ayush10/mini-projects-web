@@ -35,6 +35,8 @@ ul>li {
 .header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
 }
 
 .block-search {
@@ -224,13 +226,212 @@ ul>li {
 
 .account {
     display: flex;
+    
 }
 
 .account-section {
     display: block;
     padding-left: 10px;
+    padding-bottom: 0;
+}
+
+.account-section .asi {
+    display: flex;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.asi-section {
+    display: inline-block;
+    margin: 0;
+}
+
+.asi-section h6 {
+    display: inline;
+    margin: 0;
+    padding-right: 10px;
 }
 
 .icon {
     size: inherit;
+}
+
+
+/* Navigation Bar */
+.navigation-bar {
+    background-color: rgb(61, 168, 159);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+navigation span {
+    padding-right: 10px;
+}
+
+/* Deals items */
+.best-deals {
+    display: inline;
+    padding: 40px ;
+}
+
+.deals {
+    width: 200px;
+    padding: 40px 20px;
+}
+
+/* Categories Section */
+.image-container {
+  width: 100%;
+}
+
+/* Ads-section */
+.ads-section {
+  display: flex;
+
+  max-width: 100%;
+
+  border-top: 1px solid #b3b3b3;
+  border-bottom: 1px solid #b3b3b3;
+}
+
+.ads-image {
+  margin: 20px;
+}
+
+
+
+/* Qualities Section */
+.qualities {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  margin: 40px 10%;
+  padding: 20px 50px;
+}
+
+.qualities-quality {
+  margin: 20px 50px;
+  border: 5px solid #A672FD;
+  padding: 20px;
+}
+
+
+/* Email-Request Section */
+
+.email-newsletter {
+  background-color: #ededed;
+  margin: auto;
+  padding: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#newsletter {
+  margin-bottom: 50px;
+}
+
+.email button {
+  background-color: #9D4AFD;
+  color: white;
+  padding: auto;
+}
+
+
+
+/* Main Footer Section */
+.main-footer {
+    padding: 60px;
+    background: #e7e0e0;
+    text-align: left;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+footer .footer-border {
+    margin: auto;
+    border-right: 1px solid #e2e2e2;
+    padding: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.contact-us p {
+    font-size: 14px;
+    color: #3da89f;
+    font-weight: 600;
+    margin: 3rem 0 2rem;
+    text-align: center;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.about-us {
+  margin-left: 50px;
+  border-right: 1px solid #e2e2e2;
+}
+
+.about-us p {
+  font-size: 12px;
+}
+
+.information {
+  margin-left: 50px;
+}
+
+.information p {
+  font-size: 12px;
+}
+
+.life-with-us {
+  font-size: 12px;
+}
+
+.customer-support p {
+  font-size: 12px !important;
+}
+
+.customer-support p:first-child {
+  font-weight: bold;
+}
+
+
+
+/* Bottom Footer Section */
+.bottom-footer {
+    background: #ededed;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.secondaryForeColor {
+    color: #613f99;
+}
+
+.primaryForeColor {
+    color: #3da89f;
 }
