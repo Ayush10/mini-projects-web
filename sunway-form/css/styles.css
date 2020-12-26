@@ -56,6 +56,7 @@ body {
     text-transform: uppercase;
 }
 
+
 /* Disclaimer Section */
 .disclaimer {
     margin: auto 7em;
@@ -68,3 +69,51 @@ body {
     color: red;
 }
 
+
+/* Application Checklist Section */
+h2 {
+    padding: 0.85em;
+    padding-left: 2.2em;
+    font-size: 3em;
+    text-transform: uppercase;
+    background: #d60000;
+    color: #fff;
+}
+
+.application span {
+    padding: 0.85em;
+    padding-left: 6%;
+    font-size: 1.2em;
+}
+
+.application ul {
+    list-style-type: square outside;
+    padding: 0.85em;
+    padding-left: 7%;
+}
+
+
+/* Official Use Section */
+.official-use li {
+    list-style-type: none;
+    padding-left: 1%;
+}
+
+.page-number {
+    padding: 0.85em;
+    padding-left: 2.2em;
+    font-size: 3em;
+    text-transform: uppercase;
+    background: #d60000;
+    color: #fff;
+    text-align: right;
+    display: flex;
+    justify-content: end;
+}
+
+.page-number h2 {
+    background: #b40000;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+}
