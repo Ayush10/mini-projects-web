@@ -6,7 +6,6 @@ body {
 }
 
 /* Logo and Details Section */
-
 .top-header {
     padding: 1em;
     display: flex;
@@ -40,6 +39,10 @@ body {
 
 
 /* Main Header Section */
+#page {
+    margin: 2%;
+}
+
 .main-header {
     background-color: #d60000;
     color: white;
@@ -94,11 +97,34 @@ h2 {
 
 
 /* Official Use Section */
-.official-use li {
-    list-style-type: none;
-    padding-left: 1%;
+.official-use form {
+    padding-left: 6%;
+    margin-top: 1%;
+    margin-bottom: 2%;
 }
 
+.official-use label, input {
+    margin-bottom: 15px;
+    width: 17.6%;
+}
+
+#courses {
+    width: 80%;
+}
+
+#student-id {
+    margin-right: 40%;
+}
+
+#regt-date {
+    margin-right: 28.8%;
+}
+
+#admission-officer {
+    margin-right: 43%;
+}
+
+/* Page Numbers */
 .page-number {
     padding: 0.85em;
     padding-left: 2.2em;
@@ -116,4 +142,70 @@ h2 {
     margin: 0;
     padding: 0;
     width: 10%;
+}
+
+/* Page 2 */
+.form h1 {
+    background-color: #d60000;
+    color: white;
+    border-bottom: 1em solid #b40000;
+    margin-top: 2%;
+    padding: 0.85em;
+    padding-left: 1.25em;
+    padding-bottom: 0.65em;
+    font-size: 7em;
+    text-transform: uppercase;
+}
+
+.form ul {
+    list-style-type: square outside;
+    padding: 0.85em;
+    padding-left: 7%;
+}
+
+.intake-details {
+    width: 60%;
+}
+
+.form #border {
+    border-bottom: 1px solid rgb(65, 63, 63);
+    width: 64.5%;
+    margin: 2%;
+    padding-top: 1%;
+}
+
+.form #photo {
+    border: 1px solid rgb(253, 10, 10);
+    width: 17.35%;
+    margin-top: 1.32em;
+    height: 6.82em;
+    padding: 100px 100px;
+    display: inline;
+    float: right;
+    text-align: center;
+    color: rgb(97, 96, 96);
+    font-size: 16px;
+}
+
+.form #title {
+    display: inline-block;
+    border-bottom: 1px solid #000;
+    width: 60%;
+}
+
+.student-details {
+    display: inline-block;
+}
+
+.student-title span {
+    padding: 8%;
+}
+
+.student-title div {
+    float: right;
+    
+
+.student-title .borders {
+    width: 24em;
+    border-bottom: 1px solid #000;
 }
